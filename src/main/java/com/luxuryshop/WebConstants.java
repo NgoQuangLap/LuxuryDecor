@@ -20,5 +20,5 @@ public class WebConstants {
 	/*
 	 * location saves images
 	 */
-	public static final String IMG_URL = "D:/Projects/LuxuryShop/src/main/resources/META-INF/upload/";
+	public static final String IMG_URL = "D:/tai lieu/HK8/Doantotnghiep/luxurydecor/src/main/resources/META-INF/upload";
 }

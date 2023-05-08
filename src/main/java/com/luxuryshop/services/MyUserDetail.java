@@ -1,19 +1,19 @@
 package com.luxuryshop.services;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
+import com.luxuryshop.entities.Role;
+import com.luxuryshop.entities.User;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.luxuryshop.entities.Role;
-import com.luxuryshop.entities.User;
-
-import lombok.Data;
-@Data
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+@Getter
+@Setter
 public class MyUserDetail implements UserDetails {
 	/**
 	 * 

@@ -230,7 +230,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="related-title text-centerr">Sản phẩm khác</h3>
+                    <h3 class="related-title text-centerr">Sản phẩm khác tượng tự</h3>
                 </div>
             </div>
             <div class="row hihi">

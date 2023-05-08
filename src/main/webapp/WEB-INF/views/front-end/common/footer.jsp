@@ -7,7 +7,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            LUXURY SHOP
+                            LUXURY DECOR
                         </div>
                         <p>Mang sản phẩm phù hợp nhất đến với bạn!</p>
                         <a href="#"><img src="${pageContext.request.contextPath}/images/payment.png" alt=""></a>

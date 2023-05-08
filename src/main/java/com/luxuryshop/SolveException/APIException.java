@@ -1,10 +1,12 @@
 package com.luxuryshop.SolveException;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 public class APIException extends RuntimeException {

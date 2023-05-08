@@ -1,18 +1,18 @@
 package com.luxuryshop.entities;
 
-import java.io.Serializable;
+import com.luxuryshop.entities.primarykey.PKOfCart;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.io.Serializable;
 
-import com.luxuryshop.entities.primarykey.PKOfCart;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity

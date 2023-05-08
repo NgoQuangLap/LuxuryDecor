@@ -37,7 +37,7 @@
 	          </div>
 	          <div class="col-md-3 ml-auto">
 	            <h3 class="section__sub__title">Doanh nghiệp</h3>
-	            <h3 style="font-size: 36px;" class="section__title mb-3">LUXURY SHOP</h3>
+	            <h3 style="font-size: 36px;" class="section__title mb-3">LUXURY DECOR</h3>
 	            <p class="mb-4">Cung cấp và đưa tới cho người tiêu dùng những sản phẩm có chất lượng hàng đầu, được nhập chính hãng từ các tập đoàn lớn</p>
 	            <p><a   class="section__learn-more rounded-0">Đọc thêm</a></p>
 	          </div>
@@ -60,7 +60,7 @@
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon1.png"></div>
               <div>
                 <h3>Tư vấn khách hàng</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p>Khách hàng nên sử dụng sản phẩm chất lượng của Luxury Decor.</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>
@@ -70,7 +70,7 @@
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon2.png"></div>
               <div>
                 <h3>Phân tích sản phẩm</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p>Sản phẩm có chất liệu nhập khẩu châu Âu, chất lượng cao, được nhiều khách hàng lựa chọn và đánh giá cao .</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>
@@ -80,7 +80,7 @@
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon3.png"></div>
               <div>
                 <h3>Giám sát người dùng</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p>Chúng tôi luôn có ưu đãi cho người dùng và lắng nghe nhu cầu của người dùng.</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>
@@ -91,8 +91,8 @@
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon4.png"></div>
               <div>
-                <h3>Bảo hành 12 tháng</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <h3>Bảo hành 12 tháng </h3>
+                <p>Sản phẩm được bảo hành đến 12 tháng.</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>
@@ -102,7 +102,7 @@
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon5.png"></div>
               <div>
                 <h3>Nguồn nhập tin cậy</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p>Nguồn nhập từ châu Âu, chất lượng cao, được nhiều khách hàng tin dùng</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>
@@ -112,7 +112,7 @@
               <div class="unit-4-icon mr-4"><img src="${pageContext.request.contextPath}/images/icon6.png"></div>
               <div>
                 <h3>Dịch vụ hậu mãi</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p>Dịch vụ hỗ trợ khách hàng tiện lợi.</p>
                 <p><a  >Đọc thêm</a></p>
               </div>
             </div>

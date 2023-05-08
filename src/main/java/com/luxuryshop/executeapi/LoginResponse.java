@@ -1,6 +1,7 @@
 package com.luxuryshop.executeapi;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Copyright 2019 {@author Loda} (https://loda.me).
@@ -9,7 +10,8 @@ import lombok.Data;
  * @since 5/1/2019
  * Github: https://github.com/loda-kun
  */
-@Data
+@Getter
+@Setter
 public class LoginResponse {
     private String accessToken;
     private String tokenType = "Bearer";

@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                       <a href="${pageContext.request.contextPath}/">LUXURY SHOP</a>
+                       <a href="${pageContext.request.contextPath}/">LUXURY DECOR</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">

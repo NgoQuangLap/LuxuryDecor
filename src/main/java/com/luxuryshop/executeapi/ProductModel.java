@@ -1,16 +1,17 @@
 package com.luxuryshop.executeapi;
 
+import com.luxuryshop.entities.ProductDetail;
+import com.luxuryshop.entities.ProductImages;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import com.luxuryshop.entities.ProductDetail;
-import com.luxuryshop.entities.ProductImages;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductModel {

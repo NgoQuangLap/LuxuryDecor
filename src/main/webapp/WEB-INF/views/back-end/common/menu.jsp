@@ -7,11 +7,11 @@
 	<span class="left__icon"> <span></span> <span></span> <span></span>
 	</span>
 	<div class="left__content">
-		<div class="left__logo">LUXURY SHOP</div>
+		<div class="left__logo">LUXURY DECOR</div>
 		<div class="left__profile">
 			<div class="left__image">
 				<img
-					src="${pageContext.request.contextPath}/assets/admin.jpg"
+					src="${pageContext.request.contextPath}/assets/admin1.jpg"
 					alt="">
 			</div>
 			<p class="left__name">${USER_ADMIN.name}</p>

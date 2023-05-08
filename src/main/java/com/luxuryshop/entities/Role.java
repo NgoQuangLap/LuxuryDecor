@@ -1,21 +1,14 @@
 package com.luxuryshop.entities;
 
+import lombok.*;
+
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-
 @SuppressWarnings("serial")
-@Data
+@Getter
+@Setter
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
@@ -29,7 +22,7 @@ public class Role extends ParentEntity implements Serializable {
 	@Column(name = "description", length = 45, nullable = true)
 	private String description;
 
-	@ManyToMany(mappedBy = "roles", fetch = FetchType.EAGER)
+	@ManyToMany(cascade = CascadeType.ALL, mappedBy = "roles", fetch = FetchType.LAZY)
 	List<User> users;
 	
 }
