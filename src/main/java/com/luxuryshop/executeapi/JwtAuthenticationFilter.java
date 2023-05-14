@@ -1,4 +1,4 @@
-package com.luxuryshop.executeapi;
+package com.luxurydecor.executeapi;
 
 import java.io.IOException;
 
@@ -13,8 +13,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.luxuryshop.services.MyUserDetail;
-import com.luxuryshop.services.UserDetailServiceImple;
+import com.luxurydecor.services.MyUserDetail;
+import com.luxurydecor.services.UserDetailServiceImple;
 
 import lombok.extern.slf4j.Slf4j;
 

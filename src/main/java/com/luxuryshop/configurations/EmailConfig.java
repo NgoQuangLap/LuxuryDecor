@@ -1,4 +1,4 @@
-package com.luxuryshop.configurations;
+package com.luxurydecor.configurations;
 
 import java.util.Properties;
 
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
-import com.luxuryshop.WebConstants;
+import com.luxurydecor.WebConstants;
 
 @Configuration
 public class EmailConfig {

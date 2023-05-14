@@ -1,4 +1,4 @@
-package com.luxuryshop.configurations;
+package com.luxurydecor.configurations;
 
 import java.io.IOException;
 

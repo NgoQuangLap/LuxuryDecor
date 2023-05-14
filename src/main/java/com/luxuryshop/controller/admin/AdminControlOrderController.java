@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.admin;
+package com.luxurydecor.controller.admin;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.luxuryshop.SolveException.CustomException;
-import com.luxuryshop.entities.DetailOrder;
-import com.luxuryshop.repositories.DetailOrderRepository;
-import com.luxuryshop.repositories.ProductRepository;
-import com.luxuryshop.repositories.UserRepository;
+import com.luxurydecor.SolveException.CustomException;
+import com.luxurydecor.entities.DetailOrder;
+import com.luxurydecor.repositories.DetailOrderRepository;
+import com.luxurydecor.repositories.ProductRepository;
+import com.luxurydecor.repositories.UserRepository;
 
 @Controller
 public class AdminControlOrderController {

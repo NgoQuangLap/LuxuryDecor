@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.web;
+package com.luxurydecor.controller.web;
 
 import java.time.LocalDateTime;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.luxuryshop.Utils.SendMailService;
-import com.luxuryshop.entities.NotificationEmail;
-import com.luxuryshop.repositories.EmailRepository;
+import com.luxurydecor.Utils.SendMailService;
+import com.luxurydecor.entities.NotificationEmail;
+import com.luxurydecor.repositories.EmailRepository;
 
 @Controller
 public class EmailController {

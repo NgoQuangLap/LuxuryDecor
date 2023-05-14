@@ -1,27 +1,25 @@
-package com.luxuryshop.controller.admin;
+package com.luxurydecor.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.luxuryshop.SolveException.CustomException;
-import com.luxuryshop.entities.User;
-import com.luxuryshop.repositories.CategoryRepository;
-import com.luxuryshop.repositories.CollectionRepository;
-import com.luxuryshop.repositories.DetailOrderRepository;
-import com.luxuryshop.repositories.ProductRepository;
-import com.luxuryshop.repositories.UserRepository;
-import com.luxuryshop.services.Chart;
-import com.luxuryshop.services.MyUserDetail;
+import com.luxurydecor.SolveException.CustomException;
+import com.luxurydecor.entities.User;
+import com.luxurydecor.repositories.CategoryRepository;
+import com.luxurydecor.repositories.CollectionRepository;
+import com.luxurydecor.repositories.DetailOrderRepository;
+import com.luxurydecor.repositories.ProductRepository;
+import com.luxurydecor.repositories.UserRepository;
+import com.luxurydecor.services.Chart;
+import com.luxurydecor.services.MyUserDetail;
 
 @Controller
 public class AdminIndexController {

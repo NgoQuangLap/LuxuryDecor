@@ -1,4 +1,4 @@
-package com.luxuryshop.repositories;
+package com.luxurydecor.repositories;
 
 import javax.transaction.Transactional;
 
@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.luxuryshop.entities.FavoriteProduct;
-import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxurydecor.entities.FavoriteProduct;
+import com.luxurydecor.entities.primarykey.PKOfCart;
 
 @Repository
 public interface FProductRepository extends JpaRepository<FavoriteProduct, PKOfCart>{

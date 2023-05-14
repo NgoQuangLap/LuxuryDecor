@@ -1,10 +1,10 @@
-package com.luxuryshop.executeapi;
+package com.luxurydecor.executeapi;
 
 import java.util.Date;
 
 import org.springframework.stereotype.Component;
 
-import com.luxuryshop.services.MyUserDetail;
+import com.luxurydecor.services.MyUserDetail;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;

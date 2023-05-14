@@ -1,9 +1,9 @@
-package com.luxuryshop.controller.admin;
+package com.luxurydecor.controller.admin;
 
-import com.luxuryshop.SolveException.CustomException;
-import com.luxuryshop.entities.User;
-import com.luxuryshop.repositories.RoleRepository;
-import com.luxuryshop.repositories.UserRepository;
+import com.luxurydecor.SolveException.CustomException;
+import com.luxurydecor.entities.User;
+import com.luxurydecor.repositories.RoleRepository;
+import com.luxurydecor.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;

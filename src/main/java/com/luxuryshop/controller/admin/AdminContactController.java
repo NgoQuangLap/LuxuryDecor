@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.admin;
+package com.luxurydecor.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,7 +9,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxuryshop.repositories.ContactRepository;
+import com.luxurydecor.repositories.ContactRepository;
 
 
 @Controller

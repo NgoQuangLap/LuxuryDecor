@@ -1,7 +1,7 @@
-package com.luxuryshop.entities;
+package com.luxurydecor.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxurydecor.entities.primarykey.PKOfCart;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

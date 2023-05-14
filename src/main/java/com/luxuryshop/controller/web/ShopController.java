@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.web;
+package com.luxurydecor.controller.web;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,22 +18,22 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxuryshop.model.ProductFilterModel;
-import com.luxuryshop.repositories.CartRepository;
-import com.luxuryshop.repositories.ImageRepository;
-import com.luxuryshop.repositories.ProductDetailRepository;
-import com.luxuryshop.repositories.ProductRepository;
-import com.luxuryshop.repositories.UserRepository;
-import com.luxuryshop.services.MyUserDetail;
-import com.luxuryshop.services.ProductService;
-import com.luxuryshop.services.WebService;
-import com.luxuryshop.SolveException.CustomException;
-import com.luxuryshop.entities.Cart;
-import com.luxuryshop.entities.Category;
-import com.luxuryshop.entities.Product;
-import com.luxuryshop.entities.ProductImages;
-import com.luxuryshop.entities.User;
-import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxurydecor.model.ProductFilterModel;
+import com.luxurydecor.repositories.CartRepository;
+import com.luxurydecor.repositories.ImageRepository;
+import com.luxurydecor.repositories.ProductDetailRepository;
+import com.luxurydecor.repositories.ProductRepository;
+import com.luxurydecor.repositories.UserRepository;
+import com.luxurydecor.services.MyUserDetail;
+import com.luxurydecor.services.ProductService;
+import com.luxurydecor.services.WebService;
+import com.luxurydecor.SolveException.CustomException;
+import com.luxurydecor.entities.Cart;
+import com.luxurydecor.entities.Category;
+import com.luxurydecor.entities.Product;
+import com.luxurydecor.entities.ProductImages;
+import com.luxurydecor.entities.User;
+import com.luxurydecor.entities.primarykey.PKOfCart;
 
 @Controller
 public class ShopController {

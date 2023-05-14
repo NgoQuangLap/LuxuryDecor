@@ -1,4 +1,4 @@
-package com.luxuryshop.services;
+package com.luxurydecor.services;
 
 import java.util.List;
 
@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.luxuryshop.entities.Category;
-import com.luxuryshop.entities.Collection;
-import com.luxuryshop.entities.Product;
-import com.luxuryshop.entities.Tag;
-import com.luxuryshop.repositories.CategoryRepository;
-import com.luxuryshop.repositories.CollectionRepository;
-import com.luxuryshop.repositories.ProductRepository;
-import com.luxuryshop.repositories.TagRepository;
+import com.luxurydecor.entities.Category;
+import com.luxurydecor.entities.Collection;
+import com.luxurydecor.entities.Product;
+import com.luxurydecor.entities.Tag;
+import com.luxurydecor.repositories.CategoryRepository;
+import com.luxurydecor.repositories.CollectionRepository;
+import com.luxurydecor.repositories.ProductRepository;
+import com.luxurydecor.repositories.TagRepository;
 
 @Service
 public class WebService {

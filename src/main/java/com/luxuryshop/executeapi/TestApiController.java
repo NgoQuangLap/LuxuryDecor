@@ -1,20 +1,15 @@
-package com.luxuryshop.executeapi;
+package com.luxurydecor.executeapi;
 
 import java.io.File;
 import java.time.LocalDateTime;
 import java.util.List;
 
 import javax.persistence.EntityNotFoundException;
-import javax.servlet.http.HttpServletRequest;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,17 +17,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.github.slugify.Slugify;
-import com.luxuryshop.WebConstants;
-import com.luxuryshop.SolveException.APIException;
-import com.luxuryshop.entities.Product;
-import com.luxuryshop.entities.ProductImages;
-import com.luxuryshop.repositories.CategoryRepository;
-import com.luxuryshop.repositories.CollectionRepository;
-import com.luxuryshop.repositories.FProductRepository;
-import com.luxuryshop.repositories.ImageRepository;
-import com.luxuryshop.repositories.ProductDetailRepository;
-import com.luxuryshop.repositories.ProductRepository;
-import com.luxuryshop.services.MyUserDetail;
+import com.luxurydecor.WebConstants;
+import com.luxurydecor.SolveException.APIException;
+import com.luxurydecor.entities.Product;
+import com.luxurydecor.entities.ProductImages;
+import com.luxurydecor.repositories.CategoryRepository;
+import com.luxurydecor.repositories.CollectionRepository;
+import com.luxurydecor.repositories.FProductRepository;
+import com.luxurydecor.repositories.ImageRepository;
+import com.luxurydecor.repositories.ProductDetailRepository;
+import com.luxurydecor.repositories.ProductRepository;
 
 @RestController
 public class TestApiController {

@@ -1,9 +1,9 @@
-package com.luxuryshop.repositories;
+package com.luxurydecor.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.luxuryshop.entities.Contact;
+import com.luxurydecor.entities.Contact;
 
 @Repository
 public interface ContactRepository extends JpaRepository<Contact, Integer>{

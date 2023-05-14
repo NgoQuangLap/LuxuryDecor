@@ -1,4 +1,4 @@
-package com.luxuryshop.SolveException;
+package com.luxurydecor.SolveException;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

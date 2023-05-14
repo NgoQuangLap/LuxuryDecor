@@ -1,4 +1,4 @@
-package com.luxuryshop.APIs;
+package com.luxurydecor.APIs;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.luxuryshop.entities.Product;
-import com.luxuryshop.entities.User;
-import com.luxuryshop.repositories.UserRepository;
-import com.luxuryshop.services.MyUserDetail;
+import com.luxurydecor.entities.Product;
+import com.luxurydecor.entities.User;
+import com.luxurydecor.repositories.UserRepository;
+import com.luxurydecor.services.MyUserDetail;
 
 
 

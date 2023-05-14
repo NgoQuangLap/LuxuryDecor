@@ -1,4 +1,4 @@
-package com.luxuryshop.services;
+package com.luxurydecor.services;
 
 import java.sql.Date;
 import java.time.LocalDate;
@@ -8,7 +8,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.luxuryshop.repositories.ProductsOrderRepository;
+import com.luxurydecor.repositories.ProductsOrderRepository;
 
 @Service
 public class Chart {

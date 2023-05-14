@@ -1,6 +1,6 @@
-package com.luxuryshop.entities;
+package com.luxurydecor.entities;
 
-import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxurydecor.entities.primarykey.PKOfCart;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

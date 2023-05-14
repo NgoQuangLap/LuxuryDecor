@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.web;
+package com.luxurydecor.controller.web;
 
 import java.time.LocalDateTime;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.luxuryshop.entities.Contact;
-import com.luxuryshop.repositories.ContactRepository;
+import com.luxurydecor.entities.Contact;
+import com.luxurydecor.repositories.ContactRepository;
 
 @Controller 
 public class ContactController {

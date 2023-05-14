@@ -1,10 +1,10 @@
-package com.luxuryshop;
+package com.luxurydecor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LuxuryShopApplicationTests {
+class LuxuryDecorApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,6 +1,5 @@
-package com.luxuryshop;
+package com.luxurydecor;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -9,14 +8,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.ApplicationContext;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.luxuryshop.entities.Product;
-import com.luxuryshop.entities.ProductImages;
-import com.luxuryshop.entities.User;
-import com.luxuryshop.repositories.ImageRepository;
-import com.luxuryshop.repositories.UserRepository;
-import com.luxuryshop.services.ProductService;
+import com.luxurydecor.entities.Product;
+import com.luxurydecor.entities.ProductImages;
+import com.luxurydecor.repositories.ImageRepository;
+import com.luxurydecor.services.ProductService;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 public class Test {

@@ -1,4 +1,4 @@
-package com.luxuryshop.controller.web;
+package com.luxurydecor.controller.web;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,8 +9,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxuryshop.SolveException.CustomException;
-import com.luxuryshop.repositories.BlogRepository;
+import com.luxurydecor.SolveException.CustomException;
+import com.luxurydecor.repositories.BlogRepository;
 
 @Controller
 public class BlogController {
