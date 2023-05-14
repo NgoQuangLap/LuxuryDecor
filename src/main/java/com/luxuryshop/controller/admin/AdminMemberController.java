@@ -1,7 +1,7 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
-import com.luxurydecor.repositories.FProductRepository;
-import com.luxurydecor.repositories.UserRepository;
+import com.luxuryshop.repositories.FProductRepository;
+import com.luxuryshop.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
 import java.time.LocalDateTime;
 
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.github.slugify.Slugify;
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.Collection;
-import com.luxurydecor.entities.User;
-import com.luxurydecor.repositories.CollectionRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.Collection;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.repositories.CollectionRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @Controller
 public class AdminCollectionController {

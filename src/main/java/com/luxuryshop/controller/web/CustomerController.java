@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.web;
+package com.luxuryshop.controller.web;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -21,12 +21,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.DetailOrder;
-import com.luxurydecor.entities.User;
-import com.luxurydecor.repositories.DetailOrderRepository;
-import com.luxurydecor.repositories.UserRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.DetailOrder;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.repositories.DetailOrderRepository;
+import com.luxuryshop.repositories.UserRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @Controller
 public class CustomerController {

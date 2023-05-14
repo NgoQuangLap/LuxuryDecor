@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -8,7 +8,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.luxurydecor.entities.User;
+import com.luxuryshop.entities.User;
 
 @Service
 @RequestMapping(value = { "/login" })

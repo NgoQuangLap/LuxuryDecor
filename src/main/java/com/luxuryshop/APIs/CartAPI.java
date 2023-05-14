@@ -1,4 +1,4 @@
-package com.luxurydecor.APIs;
+package com.luxuryshop.APIs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,17 +22,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.luxurydecor.SolveException.APIException;
-import com.luxurydecor.entities.Cart;
-import com.luxurydecor.entities.Discount;
-import com.luxurydecor.entities.User;
-import com.luxurydecor.entities.primarykey.PKOfCart;
-import com.luxurydecor.model.CartModel;
-import com.luxurydecor.repositories.CartRepository;
-import com.luxurydecor.repositories.DiscountRepository;
-import com.luxurydecor.repositories.ProductRepository;
-import com.luxurydecor.repositories.UserRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.SolveException.APIException;
+import com.luxuryshop.entities.Cart;
+import com.luxuryshop.entities.Discount;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxuryshop.model.CartModel;
+import com.luxuryshop.repositories.CartRepository;
+import com.luxuryshop.repositories.DiscountRepository;
+import com.luxuryshop.repositories.ProductRepository;
+import com.luxuryshop.repositories.UserRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @RestController
 public class CartAPI {

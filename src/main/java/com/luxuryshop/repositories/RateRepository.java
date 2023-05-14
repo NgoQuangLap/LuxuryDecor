@@ -1,11 +1,11 @@
-package com.luxurydecor.repositories;
+package com.luxuryshop.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
 
-import com.luxurydecor.entities.RateProduct;
-import com.luxurydecor.entities.primarykey.PKOfCart;
+import com.luxuryshop.entities.RateProduct;
+import com.luxuryshop.entities.primarykey.PKOfCart;
 
 @Repository
 public interface RateRepository extends JpaRepository<RateProduct, PKOfCart>{

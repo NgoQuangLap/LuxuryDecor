@@ -1,4 +1,4 @@
-package com.luxurydecor.services;
+package com.luxuryshop.services;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,15 +13,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.ProductDetail;
-import com.luxurydecor.entities.ProductImages;
-import com.luxurydecor.model.ProductFilterModel;
-import com.luxurydecor.repositories.ImageRepository;
-import com.luxurydecor.repositories.ProductDetailRepository;
-import com.luxurydecor.repositories.ProductRepository;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.ProductDetail;
+import com.luxuryshop.entities.ProductImages;
+import com.luxuryshop.model.ProductFilterModel;
+import com.luxuryshop.repositories.ImageRepository;
+import com.luxuryshop.repositories.ProductDetailRepository;
+import com.luxuryshop.repositories.ProductRepository;
 import com.github.slugify.Slugify;
-import com.luxurydecor.WebConstants;
+import com.luxuryshop.WebConstants;
 
 @Service
 public class ProductService {

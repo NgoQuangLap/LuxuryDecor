@@ -1,7 +1,7 @@
-package com.luxurydecor.executeapi;
+package com.luxuryshop.executeapi;
 
-import com.luxurydecor.entities.ProductDetail;
-import com.luxurydecor.entities.ProductImages;
+import com.luxuryshop.entities.ProductDetail;
+import com.luxuryshop.entities.ProductImages;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

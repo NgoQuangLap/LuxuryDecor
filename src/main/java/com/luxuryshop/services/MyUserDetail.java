@@ -1,7 +1,7 @@
-package com.luxurydecor.services;
+package com.luxuryshop.services;
 
-import com.luxurydecor.entities.Role;
-import com.luxurydecor.entities.User;
+import com.luxuryshop.entities.Role;
+import com.luxuryshop.entities.User;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;

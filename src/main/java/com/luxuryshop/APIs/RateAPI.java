@@ -1,4 +1,4 @@
-package com.luxurydecor.APIs;
+package com.luxuryshop.APIs;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.RateProduct;
-import com.luxurydecor.entities.primarykey.PKOfCart;
-import com.luxurydecor.model.RateProductModel;
-import com.luxurydecor.repositories.ProductRepository;
-import com.luxurydecor.repositories.RateRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.RateProduct;
+import com.luxuryshop.entities.primarykey.PKOfCart;
+import com.luxuryshop.model.RateProductModel;
+import com.luxuryshop.repositories.ProductRepository;
+import com.luxuryshop.repositories.RateRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @RestController
 public class RateAPI {

@@ -1,4 +1,4 @@
-package com.luxurydecor.configurations;
+package com.luxuryshop.configurations;
 
 import java.util.Properties;
 import javax.persistence.EntityManagerFactory;

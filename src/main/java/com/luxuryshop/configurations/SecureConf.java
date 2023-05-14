@@ -1,4 +1,4 @@
-package com.luxurydecor.configurations;
+package com.luxuryshop.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.luxurydecor.services.UserDetailServiceImple;
+import com.luxuryshop.services.UserDetailServiceImple;
 
 
 @Configuration

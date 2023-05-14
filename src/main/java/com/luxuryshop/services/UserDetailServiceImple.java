@@ -1,4 +1,4 @@
-package com.luxurydecor.services;
+package com.luxuryshop.services;
 
 import javax.transaction.Transactional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.luxurydecor.entities.User;
-import com.luxurydecor.repositories.UserRepository;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.repositories.UserRepository;
 
 @Service
 public class UserDetailServiceImple implements UserDetailsService {

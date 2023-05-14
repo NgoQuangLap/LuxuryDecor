@@ -1,9 +1,9 @@
-package com.luxurydecor.repositories;
+package com.luxuryshop.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.luxurydecor.entities.Category;
+import com.luxuryshop.entities.Category;
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Integer>{
 

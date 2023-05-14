@@ -1,4 +1,4 @@
-package com.luxurydecor.entities.primarykey;
+package com.luxuryshop.entities.primarykey;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.luxurydecor.entities;
+package com.luxuryshop.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

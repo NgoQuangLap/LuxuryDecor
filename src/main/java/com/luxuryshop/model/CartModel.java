@@ -1,4 +1,4 @@
-package com.luxurydecor.model;
+package com.luxuryshop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

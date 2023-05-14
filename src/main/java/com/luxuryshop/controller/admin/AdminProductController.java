@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
 import java.io.File;
 import java.util.List;
@@ -16,16 +16,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.luxurydecor.WebConstants;
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.ProductImages;
-import com.luxurydecor.repositories.CategoryRepository;
-import com.luxurydecor.repositories.CollectionRepository;
-import com.luxurydecor.repositories.FProductRepository;
-import com.luxurydecor.repositories.ImageRepository;
-import com.luxurydecor.repositories.ProductRepository;
-import com.luxurydecor.services.ProductService;
+import com.luxuryshop.WebConstants;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.ProductImages;
+import com.luxuryshop.repositories.CategoryRepository;
+import com.luxuryshop.repositories.CollectionRepository;
+import com.luxuryshop.repositories.FProductRepository;
+import com.luxuryshop.repositories.ImageRepository;
+import com.luxuryshop.repositories.ProductRepository;
+import com.luxuryshop.services.ProductService;
 
 @Controller
 public class AdminProductController {

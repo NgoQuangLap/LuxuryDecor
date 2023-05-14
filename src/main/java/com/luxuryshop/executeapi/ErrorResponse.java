@@ -1,4 +1,4 @@
-package com.luxurydecor.executeapi;
+package com.luxuryshop.executeapi;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.luxurydecor.configurations;
+package com.luxuryshop.configurations;
 
 import java.io.IOException;
 import java.util.Set;
@@ -12,7 +12,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.services.MyUserDetail;
 
 public class CustomSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 	

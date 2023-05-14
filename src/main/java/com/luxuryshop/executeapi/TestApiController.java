@@ -1,4 +1,4 @@
-package com.luxurydecor.executeapi;
+package com.luxuryshop.executeapi;
 
 import java.io.File;
 import java.time.LocalDateTime;
@@ -17,16 +17,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.github.slugify.Slugify;
-import com.luxurydecor.WebConstants;
-import com.luxurydecor.SolveException.APIException;
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.ProductImages;
-import com.luxurydecor.repositories.CategoryRepository;
-import com.luxurydecor.repositories.CollectionRepository;
-import com.luxurydecor.repositories.FProductRepository;
-import com.luxurydecor.repositories.ImageRepository;
-import com.luxurydecor.repositories.ProductDetailRepository;
-import com.luxurydecor.repositories.ProductRepository;
+import com.luxuryshop.WebConstants;
+import com.luxuryshop.SolveException.APIException;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.ProductImages;
+import com.luxuryshop.repositories.CategoryRepository;
+import com.luxuryshop.repositories.CollectionRepository;
+import com.luxuryshop.repositories.FProductRepository;
+import com.luxuryshop.repositories.ImageRepository;
+import com.luxuryshop.repositories.ProductDetailRepository;
+import com.luxuryshop.repositories.ProductRepository;
 
 @RestController
 public class TestApiController {
@@ -54,9 +54,7 @@ public class TestApiController {
 
 	@Autowired
 	JWTGenerateToken tokenProvider;
-	
-	@Autowired
-	BlockIP blockIP;
+
 
 //	@RequestMapping(value = "/api/login", method = RequestMethod.POST)
 //	public LoginResponse authenticateUser(@RequestBody LoginRequest loginRequest, final HttpServletRequest request) {

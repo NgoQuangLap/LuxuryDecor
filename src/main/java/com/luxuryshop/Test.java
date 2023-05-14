@@ -1,4 +1,4 @@
-package com.luxurydecor;
+package com.luxuryshop;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.ProductImages;
-import com.luxurydecor.repositories.ImageRepository;
-import com.luxurydecor.services.ProductService;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.ProductImages;
+import com.luxuryshop.repositories.ImageRepository;
+import com.luxuryshop.services.ProductService;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 public class Test {

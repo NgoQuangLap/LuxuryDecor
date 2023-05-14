@@ -1,4 +1,4 @@
-package com.luxurydecor.configurations;
+package com.luxuryshop.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

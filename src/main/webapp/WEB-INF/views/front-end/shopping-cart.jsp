@@ -138,108 +138,108 @@
             </div>
         </div>
     </section>
-    <section class="related spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="related-title text-centerr">Sản phẩm khác tượng tự</h3>
-                </div>
-            </div>
-            <div class="row hihi">
-                <c:forEach items="${relatedProducts }" var="item">
-                    <div>
-                        <div class="product__item">
-                            <c:choose>
-                                <c:when test="${empty item.productImages }">
-                                    <div class="product__item__pic set-bg" data-setbg="http://placehold.it/700x400">
-                                        <c:if test="${item.isHot == true }">
-                                            <span class="label">Hot</span>
-                                        </c:if>
-                                        <c:if test="${tem.isNew == true }">
-                                            <span class="label">Mới</span>
-                                        </c:if>
-                                        <c:if test="${item.isSale == true }">
-                                            <span class="label">Sale</span>
-                                        </c:if>
-                                        <ul class="product__hover">
-                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png"
-                                                                 alt=""><span>Yêu thích</span></a></li>
-                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/compare.png"
-                                                                 alt=""><span>So sánh</span></a></li>
-                                            <li><a href="${pageContext.request.contextPath}/shop-details/${item.seo}"><img
-                                                    src="${pageContext.request.contextPath}/images/search.png" alt=""><span>Chi tiết</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </c:when>
-                                <c:otherwise>
-                                    <div class="product__item__pic set-bg"
-                                         data-setbg="${pageContext.request.contextPath}/file/upload/${item.productImages.get(0).path }">
-                                        <c:if test="${item.isHot == true }">
-                                            <span class="label">Hot</span>
-                                        </c:if>
-                                        <c:if test="${item.isNew == true }">
-                                            <span class="label">Mới</span>
-                                        </c:if>
-                                        <c:if test="${item.isSale == true }">
-                                            <span class="label">Sale</span>
-                                        </c:if>
-                                        <ul class="product__hover">
-                                            <c:choose>
-                                                <c:when test="${item.userLiked(USER) == true }">
-                                                    <li onclick="favorite.favorite(${item.id});"><a><img
-                                                            class="img_${item.id }"
-                                                            src="${pageContext.request.contextPath}/images/redheart.png"
-                                                            alt=""><span>Yêu thích</span></a></li>
-                                                </c:when>
-                                                <c:otherwise>
-                                                    <li onclick="favorite.favorite(${item.id});"><a><img
-                                                            class="img_${item.id }"
-                                                            src="${pageContext.request.contextPath}/images/heart.png"
-                                                            alt=""><span>Yêu thích</span></a></li>
-                                                </c:otherwise>
-                                            </c:choose>
-                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/compare.png"
-                                                                 alt=""><span>So sánh</span></a></li>
-                                            <li><a href="${pageContext.request.contextPath}/shop-details/${item.seo}"><img
-                                                    src="${pageContext.request.contextPath}/images/search.png" alt=""><span>Chi tiết</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </c:otherwise>
-                            </c:choose>
-                            <div class="product__item__text">
-                                <h6>${item.title }</h6>
+<%--    <section class="related spad">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12">--%>
+<%--                    <h3 class="related-title text-centerr">Sản phẩm khác tượng tự</h3>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="row hihi">--%>
+<%--                <c:forEach items="${relatedProducts }" var="item">--%>
+<%--                    <div>--%>
+<%--                        <div class="product__item">--%>
+<%--                            <c:choose>--%>
+<%--                                <c:when test="${empty item.productImages }">--%>
+<%--                                    <div class="product__item__pic set-bg" data-setbg="http://placehold.it/700x400">--%>
+<%--                                        <c:if test="${item.isHot == true }">--%>
+<%--                                            <span class="label">Hot</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <c:if test="${tem.isNew == true }">--%>
+<%--                                            <span class="label">Mới</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <c:if test="${item.isSale == true }">--%>
+<%--                                            <span class="label">Sale</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <ul class="product__hover">--%>
+<%--                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png"--%>
+<%--                                                                 alt=""><span>Yêu thích</span></a></li>--%>
+<%--                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/compare.png"--%>
+<%--                                                                 alt=""><span>So sánh</span></a></li>--%>
+<%--                                            <li><a href="${pageContext.request.contextPath}/shop-details/${item.seo}"><img--%>
+<%--                                                    src="${pageContext.request.contextPath}/images/search.png" alt=""><span>Chi tiết</span></a>--%>
+<%--                                            </li>--%>
+<%--                                        </ul>--%>
+<%--                                    </div>--%>
+<%--                                </c:when>--%>
+<%--                                <c:otherwise>--%>
+<%--                                    <div class="product__item__pic set-bg"--%>
+<%--                                         data-setbg="${pageContext.request.contextPath}/file/upload/${item.productImages.get(0).path }">--%>
+<%--                                        <c:if test="${item.isHot == true }">--%>
+<%--                                            <span class="label">Hot</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <c:if test="${item.isNew == true }">--%>
+<%--                                            <span class="label">Mới</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <c:if test="${item.isSale == true }">--%>
+<%--                                            <span class="label">Sale</span>--%>
+<%--                                        </c:if>--%>
+<%--                                        <ul class="product__hover">--%>
+<%--                                            <c:choose>--%>
+<%--                                                <c:when test="${item.userLiked(USER) == true }">--%>
+<%--                                                    <li onclick="favorite.favorite(${item.id});"><a><img--%>
+<%--                                                            class="img_${item.id }"--%>
+<%--                                                            src="${pageContext.request.contextPath}/images/redheart.png"--%>
+<%--                                                            alt=""><span>Yêu thích</span></a></li>--%>
+<%--                                                </c:when>--%>
+<%--                                                <c:otherwise>--%>
+<%--                                                    <li onclick="favorite.favorite(${item.id});"><a><img--%>
+<%--                                                            class="img_${item.id }"--%>
+<%--                                                            src="${pageContext.request.contextPath}/images/heart.png"--%>
+<%--                                                            alt=""><span>Yêu thích</span></a></li>--%>
+<%--                                                </c:otherwise>--%>
+<%--                                            </c:choose>--%>
+<%--                                            <li><a href="#"><img src="${pageContext.request.contextPath}/images/compare.png"--%>
+<%--                                                                 alt=""><span>So sánh</span></a></li>--%>
+<%--                                            <li><a href="${pageContext.request.contextPath}/shop-details/${item.seo}"><img--%>
+<%--                                                    src="${pageContext.request.contextPath}/images/search.png" alt=""><span>Chi tiết</span></a>--%>
+<%--                                            </li>--%>
+<%--                                        </ul>--%>
+<%--                                    </div>--%>
+<%--                                </c:otherwise>--%>
+<%--                            </c:choose>--%>
+<%--                            <div class="product__item__text">--%>
+<%--                                <h6>${item.title }</h6>--%>
 
-                                <a href="javascript:void(0)" class="add-cart"
-                                   onclick="cart.choose_product_to_cart(${item.id}, 1)">+ Thêm vào giỏ hàng</a>
+<%--                                <a href="javascript:void(0)" class="add-cart"--%>
+<%--                                   onclick="cart.choose_product_to_cart(${item.id}, 1)">+ Thêm vào giỏ hàng</a>--%>
 
-                                <div class="rating d-flex">
-                                    <c:forEach begin="1" end="${item.rate }">
-                                        <img width="15px" src="${pageContext.request.contextPath}/images/yellow-star.png">
-                                    </c:forEach>
-                                    <c:forEach begin="${item.rate + 1 }" end="5">
-                                        <img width="15px" src="${pageContext.request.contextPath}/images/grey-star.png">
-                                    </c:forEach>
-                                </div>
-                                <h5><fmt:formatNumber value="${item.price }" type="number"/> <span
-                                        style="text-decoration:line-through; font-size:14px; color:grey;"><fmt:formatNumber
-                                        value="${item.priceOld }" type="number"/></span></h5>
-                                <div class="product__color__select">
-                                    <label class="silver" for="pc-1">
-                                        <input type="radio" id="pc-1">
-                                    </label>
-                                    <label class="active grey" for="pc-2">
-                                        <input type="radio" id="pc-2">
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </c:forEach>
-            </div>
-        </div>
-    </section>
+<%--                                <div class="rating d-flex">--%>
+<%--                                    <c:forEach begin="1" end="${item.rate }">--%>
+<%--                                        <img width="15px" src="${pageContext.request.contextPath}/images/yellow-star.png">--%>
+<%--                                    </c:forEach>--%>
+<%--                                    <c:forEach begin="${item.rate + 1 }" end="5">--%>
+<%--                                        <img width="15px" src="${pageContext.request.contextPath}/images/grey-star.png">--%>
+<%--                                    </c:forEach>--%>
+<%--                                </div>--%>
+<%--                                <h5><fmt:formatNumber value="${item.price }" type="number"/> <span--%>
+<%--                                        style="text-decoration:line-through; font-size:14px; color:grey;"><fmt:formatNumber--%>
+<%--                                        value="${item.priceOld }" type="number"/></span></h5>--%>
+<%--                                <div class="product__color__select">--%>
+<%--                                    <label class="silver" for="pc-1">--%>
+<%--                                        <input type="radio" id="pc-1">--%>
+<%--                                    </label>--%>
+<%--                                    <label class="active grey" for="pc-2">--%>
+<%--                                        <input type="radio" id="pc-2">--%>
+<%--                                    </label>--%>
+<%--                                </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </c:forEach>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </section>--%>
     <jsp:include page="/WEB-INF/views/front-end/common/footer.jsp"></jsp:include>
     <jsp:include page="/WEB-INF/views/front-end/common/js.jsp"></jsp:include>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js">

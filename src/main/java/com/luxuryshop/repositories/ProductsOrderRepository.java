@@ -1,11 +1,11 @@
-package com.luxurydecor.repositories;
+package com.luxuryshop.repositories;
 
 import java.sql.Date;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.luxurydecor.entities.SaledProduct;
+import com.luxuryshop.entities.SaledProduct;
 
 public interface ProductsOrderRepository extends JpaRepository<SaledProduct, Integer>{
 	

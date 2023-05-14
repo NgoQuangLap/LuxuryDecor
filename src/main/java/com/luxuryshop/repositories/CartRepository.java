@@ -1,4 +1,4 @@
-package com.luxurydecor.repositories;
+package com.luxuryshop.repositories;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.luxurydecor.entities.Cart;
-import com.luxurydecor.entities.primarykey.PKOfCart;
+import com.luxuryshop.entities.Cart;
+import com.luxuryshop.entities.primarykey.PKOfCart;
 
 @Repository
 public interface CartRepository extends JpaRepository<Cart, PKOfCart> {

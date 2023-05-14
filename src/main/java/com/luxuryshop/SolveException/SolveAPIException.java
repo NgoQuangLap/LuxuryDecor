@@ -1,4 +1,4 @@
-package com.luxurydecor.SolveException;
+package com.luxuryshop.SolveException;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,9 +1,9 @@
-package com.luxurydecor.repositories;
+package com.luxuryshop.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.luxurydecor.entities.User;
+import com.luxuryshop.entities.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 	public User findByUsername(String username);

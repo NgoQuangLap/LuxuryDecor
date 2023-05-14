@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.web;
+package com.luxuryshop.controller.web;
 
 import java.util.List;
 
@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.Cart;
-import com.luxurydecor.entities.Collection;
-import com.luxurydecor.repositories.BannerRepository;
-import com.luxurydecor.repositories.BlogRepository;
-import com.luxurydecor.repositories.CartRepository;
-import com.luxurydecor.repositories.CollectionRepository;
-import com.luxurydecor.repositories.ProductRepository;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.Cart;
+import com.luxuryshop.entities.Collection;
+import com.luxuryshop.repositories.BannerRepository;
+import com.luxuryshop.repositories.BlogRepository;
+import com.luxuryshop.repositories.CartRepository;
+import com.luxuryshop.repositories.CollectionRepository;
+import com.luxuryshop.repositories.ProductRepository;
 
 @Controller
 @RequestMapping(value = {"/" ,"/home"})

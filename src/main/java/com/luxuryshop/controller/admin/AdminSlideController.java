@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
 import java.io.File;
 import java.time.LocalDateTime;
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.luxurydecor.WebConstants;
-import com.luxurydecor.entities.Banner;
-import com.luxurydecor.repositories.BannerRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.WebConstants;
+import com.luxuryshop.entities.Banner;
+import com.luxuryshop.repositories.BannerRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @Controller 
 public class AdminSlideController {

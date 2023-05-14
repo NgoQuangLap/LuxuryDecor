@@ -1,4 +1,4 @@
-package com.luxurydecor.entities;
+package com.luxuryshop.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

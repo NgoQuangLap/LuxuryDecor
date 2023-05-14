@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.admin;
+package com.luxuryshop.controller.admin;
 
 import java.util.List;
 
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.Role;
-import com.luxurydecor.entities.User;
-import com.luxurydecor.repositories.RoleRepository;
-import com.luxurydecor.repositories.UserRepository;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.Role;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.repositories.RoleRepository;
+import com.luxuryshop.repositories.UserRepository;
 
 @Controller
 public class AdminManageAdminController {

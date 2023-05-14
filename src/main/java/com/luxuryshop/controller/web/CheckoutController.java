@@ -1,4 +1,4 @@
-package com.luxurydecor.controller.web;
+package com.luxuryshop.controller.web;
 
 import java.sql.Date;
 import java.time.LocalDate;
@@ -22,19 +22,19 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.luxurydecor.SolveException.CustomException;
-import com.luxurydecor.entities.Cart;
-import com.luxurydecor.entities.DetailOrder;
-import com.luxurydecor.entities.Product;
-import com.luxurydecor.entities.SaledProduct;
-import com.luxurydecor.entities.User;
-import com.luxurydecor.repositories.CartRepository;
-import com.luxurydecor.repositories.DetailOrderRepository;
-import com.luxurydecor.repositories.DiscountRepository;
-import com.luxurydecor.repositories.ProductRepository;
-import com.luxurydecor.repositories.ProductsOrderRepository;
-import com.luxurydecor.repositories.UserRepository;
-import com.luxurydecor.services.MyUserDetail;
+import com.luxuryshop.SolveException.CustomException;
+import com.luxuryshop.entities.Cart;
+import com.luxuryshop.entities.DetailOrder;
+import com.luxuryshop.entities.Product;
+import com.luxuryshop.entities.SaledProduct;
+import com.luxuryshop.entities.User;
+import com.luxuryshop.repositories.CartRepository;
+import com.luxuryshop.repositories.DetailOrderRepository;
+import com.luxuryshop.repositories.DiscountRepository;
+import com.luxuryshop.repositories.ProductRepository;
+import com.luxuryshop.repositories.ProductsOrderRepository;
+import com.luxuryshop.repositories.UserRepository;
+import com.luxuryshop.services.MyUserDetail;
 
 @Controller
 public class CheckoutController {
