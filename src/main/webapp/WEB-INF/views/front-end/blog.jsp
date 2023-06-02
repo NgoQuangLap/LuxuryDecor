@@ -31,7 +31,6 @@
     	<div class="site__section" id="blog__section">
       <div class="container">
         <div class="row">
-          
           <c:forEach var="blog" items="${blogs }">
           		<div class="blog__section__item col-md-6 col-lg-4 mb-4 mb-lg-4">
 		            <div class="h-entry">

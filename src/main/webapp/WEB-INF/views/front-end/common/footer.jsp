@@ -29,7 +29,7 @@
                     <div class="footer__widget">
                         <h6>Contact me</h6>
                         <ul>
-                            <li><a href="https://www.facebook.com/nguyenngoc.quan.31337"><img style="height:20px;" src="${pageContext.request.contextPath}/images/facebook.png"> Ngọc Quân</a></li>
+                            <li><a href="https://www.facebook.com/nguyenngoc.quan.31337"><img style="height:20px;" src="${pageContext.request.contextPath}/images/facebook.png">Luxury Decor</a></li>
                             <li><a> <i style="font-size:19px;" class="fas fa-envelope"></i> rhyoto150@gmail.com</a></li>
                         </ul>
                         
@@ -55,7 +55,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="footer__copyright__text">
                     	<p>Copyright © 2023
-                            All rights reserved | This website is made by <a target="_blank">NgocQuan</a>
+                            All rights reserved | This website is made by <a target="_blank">QuangLap</a>
                         </p>
                         <p>Copyright © 2023
                             All rights reserved | This template is made by <a href="https://colorlib.com" target="_blank">Colorlib</a>

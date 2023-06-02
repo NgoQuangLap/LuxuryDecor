@@ -82,7 +82,7 @@ public class ProductService {
 		return productRepository.findBySeo(seo);
 	}
 
-	private boolean isEmptyUploadFile(MultipartFile[] images) {
+	private boolean isEmptyUploadFile(MultipartFile[] images) { // check img
 		if (images == null || images.length <= 0)
 			return true;
 		if (images.length == 1 && images[0].getOriginalFilename().isEmpty())

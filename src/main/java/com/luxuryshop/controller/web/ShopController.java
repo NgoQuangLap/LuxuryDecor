@@ -221,6 +221,7 @@ public class ShopController {
 	}
 	
 	@SuppressWarnings("unchecked")
+	//	xử lý thanh toán
 	@RequestMapping(value = { "/shopping-cart" }, method = RequestMethod.GET)
 	public String cart(Model model) throws Exception {
 		try {

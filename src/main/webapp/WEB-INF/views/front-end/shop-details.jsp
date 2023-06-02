@@ -139,33 +139,33 @@
                     <div class="col-lg-8">
                         <div class="product__details__text">
                             <h4>${product.title }</h4>
-                            <div class="rating">
-                            	
-                            		<form>
-                            		
-									      <div class="star-icon">
-									        <input type="radio" name="rating1" id="rating1" <c:if test="${rate == 1}">checked </c:if>  >
-									        <label for="rating1" class="fa fa-star"></label>
-									        <input type="radio" name="rating1" id="rating2" <c:if test="${rate == 2}">checked </c:if>  >
-									        <label for="rating2" class="fa fa-star"></label>
-									        <input type="radio" name="rating1" id="rating3" <c:if test="${rate == 3}">checked </c:if>  >
-									        <label for="rating3" class="fa fa-star"></label>
-									        <input type="radio" name="rating1" id="rating4" <c:if test="${rate == 4}">checked </c:if>  >
-									        <label for="rating4" class="fa fa-star"></label>
-									        <input type="radio" name="rating1" id="rating5" <c:if test="${rate == 5}">checked </c:if>  >
-									        <label for="rating5" class="fa fa-star"></label>
-									      </div>
-									     <c:choose>
-										   	<c:when test="${not empty USER }">
-										   		<button type="button" onclick="shop.rate(${product.id});" id="btnrate">Đánh giá</button>
-										   	</c:when>
-										   	<c:otherwise>
-										   		<button type="button" onclick="rate();" id="btnrate">Đánh giá</button>
-										   	</c:otherwise>
-									   	</c:choose>
-                                	</form>
-                                
-                            </div>
+<%--                            <div class="rating">--%>
+<%--                            	--%>
+<%--                            		<form>--%>
+<%--                            		--%>
+<%--									      <div class="star-icon">--%>
+<%--									        <input type="radio" name="rating1" id="rating1" <c:if test="${rate == 1}">checked </c:if>  >--%>
+<%--									        <label for="rating1" class="fa fa-star"></label>--%>
+<%--									        <input type="radio" name="rating1" id="rating2" <c:if test="${rate == 2}">checked </c:if>  >--%>
+<%--									        <label for="rating2" class="fa fa-star"></label>--%>
+<%--									        <input type="radio" name="rating1" id="rating3" <c:if test="${rate == 3}">checked </c:if>  >--%>
+<%--									        <label for="rating3" class="fa fa-star"></label>--%>
+<%--									        <input type="radio" name="rating1" id="rating4" <c:if test="${rate == 4}">checked </c:if>  >--%>
+<%--									        <label for="rating4" class="fa fa-star"></label>--%>
+<%--									        <input type="radio" name="rating1" id="rating5" <c:if test="${rate == 5}">checked </c:if>  >--%>
+<%--									        <label for="rating5" class="fa fa-star"></label>--%>
+<%--									      </div>--%>
+<%--									     <c:choose>--%>
+<%--										   	<c:when test="${not empty USER }">--%>
+<%--										   		<button type="button" onclick="shop.rate(${product.id});" id="btnrate">Đánh giá</button>--%>
+<%--										   	</c:when>--%>
+<%--										   	<c:otherwise>--%>
+<%--										   		<button type="button" onclick="rate();" id="btnrate">Đánh giá</button>--%>
+<%--										   	</c:otherwise>--%>
+<%--									   	</c:choose>--%>
+<%--                                	</form>--%>
+<%--                                --%>
+<%--                            </div>--%>
                             <h3><fmt:formatNumber value="${product.price }" type="number"/> <span><fmt:formatNumber value="${product.priceOld }" type="number"/></span></h3>
                             <p>${product.shortDescription }</p>
                             <div class="product__details__cart__option">
@@ -186,12 +186,12 @@
 									</c:otherwise>
 								</c:choose>
                             </div>
-                            <div class="product__details__last__option">
-                                <h5><span>Đảm bảo thanh toán an toàn</span></h5>
-                                <img src="${pageContext.request.contextPath}/images/payment.png" alt="">
-                                
-                            </div>
-                            <div class="sharethis-inline-share-buttons"></div>
+<%--                            <div class="product__details__last__option">--%>
+<%--                                <h5><span>Đảm bảo thanh toán an toàn</span></h5>--%>
+<%--                                <img src="${pageContext.request.contextPath}/images/payment.png" alt="">--%>
+<%--                                --%>
+<%--                            </div>--%>
+<%--                            <div class="sharethis-inline-share-buttons"></div>--%>
                         </div>
                     </div>
                 </div>
@@ -217,15 +217,15 @@
             </div>
         </div>
     </section>
-    <section>
-    <div class="container">
-            <div class="row">
-                <div class="col-lg-12 comment">
-                    <div class="fb-comments" data-href="http://localhost:8888/" data-width="" data-numposts="5"></div>
-                </div>
-            </div>
-            </div>
-    </section>
+<%--    <section>--%>
+<%--    	<div class="container">--%>
+<%--            <div class="row">--%>
+<%--                <div class="col-lg-12 comment">--%>
+<%--                    <div class="fb-comments" data-href="http://localhost:8888/" data-width="" data-numposts="5"></div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--		</div>--%>
+<%--    </section>--%>
     <section class="related spad">
         <div class="container">
             <div class="row">
