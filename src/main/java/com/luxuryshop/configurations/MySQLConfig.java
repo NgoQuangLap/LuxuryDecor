@@ -22,7 +22,7 @@ public class MySQLConfig {
 //		dataSourceConfig.setJdbcUrl("jdbc:mysql://localhost:3307/luxuryshop1?useUnicode=yes&characterEncoding=UTF-8");
 		dataSourceConfig.setJdbcUrl("jdbc:mysql://localhost:3306/luxuryshop1?useUnicode=yes&characterEncoding=UTF-8");
 		dataSourceConfig.setUsername("root");
-		dataSourceConfig.setPassword("123456");
+		dataSourceConfig.setPassword("1234@1234");
 		return new HikariDataSource(dataSourceConfig);
 	}
 
