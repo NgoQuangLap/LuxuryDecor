@@ -2146,7 +2146,9 @@ a:hover{
 }
 .hot__deal__sticker {
 	height: 100px;
-	width: 100px;
+	width: fit-content;
+	padding-left: 5px;
+	padding-right: 5px;
 	background: #111111;
 	border-radius: 50%;
 	padding-top: 22px;
