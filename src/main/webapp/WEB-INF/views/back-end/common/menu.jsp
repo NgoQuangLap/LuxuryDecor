@@ -68,37 +68,37 @@
 						Danh Sách</a>
 				</div>
 			</li>
-			<li class="left__menuItem">
-				<div class="left__title">
-					<img
-						src="${pageContext.request.contextPath}/assets/icon-settings.svg"
-						alt="">Slide<img class="left__iconDown"
-						src="${pageContext.request.contextPath}/assets/arrow-down.svg"
-						alt="">
-				</div>
-				<div class="left__text">
-					<a class="left__link"
-						href="${pageContext.request.contextPath}/admin/slide-add">Thêm
-						Slide</a> <a class="left__link"
-						href="${pageContext.request.contextPath}/admin/slides">Xem
-						Slide</a>
-				</div>
-			</li>
+<%--			<li class="left__menuItem">--%>
+<%--				<div class="left__title">--%>
+<%--					<img--%>
+<%--						src="${pageContext.request.contextPath}/assets/icon-settings.svg"--%>
+<%--						alt="">Slide<img class="left__iconDown"--%>
+<%--						src="${pageContext.request.contextPath}/assets/arrow-down.svg"--%>
+<%--						alt="">--%>
+<%--				</div>--%>
+<%--				<div class="left__text">--%>
+<%--					<a class="left__link"--%>
+<%--						href="${pageContext.request.contextPath}/admin/slide-add">Thêm--%>
+<%--						Slide</a> <a class="left__link"--%>
+<%--						href="${pageContext.request.contextPath}/admin/slides">Xem--%>
+<%--						Slide</a>--%>
+<%--				</div>--%>
+<%--			</li>--%>
 			<li class="left__menuItem"><a
 				href="${pageContext.request.contextPath}/admin/customers"
 				class="left__title"><img
 					src="${pageContext.request.contextPath}/assets/icon-users.svg"
 					alt="">Khách Hàng</a></li>
-			<li class="left__menuItem"><a
-				href="${pageContext.request.contextPath}/admin/orders"
-				class="left__title"><img
-					src="${pageContext.request.contextPath}/assets/icon-book.svg"
-					alt="">Đơn Đặt Hàng</a></li>
-			<li class="left__menuItem"><a
-				href="${pageContext.request.contextPath}/admin/contacts"
-				class="left__title"><img
-					src="${pageContext.request.contextPath}/assets/icon-pencil.svg"
-					alt="">Phản hồi</a></li>
+<%--			<li class="left__menuItem"><a--%>
+<%--				href="${pageContext.request.contextPath}/admin/orders"--%>
+<%--				class="left__title"><img--%>
+<%--					src="${pageContext.request.contextPath}/assets/icon-book.svg"--%>
+<%--					alt="">Đơn Đặt Hàng</a></li>--%>
+<%--			<li class="left__menuItem"><a--%>
+<%--				href="${pageContext.request.contextPath}/admin/contacts"--%>
+<%--				class="left__title"><img--%>
+<%--					src="${pageContext.request.contextPath}/assets/icon-pencil.svg"--%>
+<%--					alt="">Phản hồi</a></li>--%>
 			<li class="left__menuItem">
 				<div class="left__title">
 					<img src="${pageContext.request.contextPath}/assets/icon-user.svg"

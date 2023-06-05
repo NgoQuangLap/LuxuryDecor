@@ -74,13 +74,13 @@
                         <ul>
                             <li class="${cate == 'home' ? 'active' : '' }"><a href="${pageContext.request.contextPath}/" >Trang chủ</a></li>
                             <li class="${cate == 'shop' ? 'active' : '' }"><a href="${pageContext.request.contextPath}/shop">Cửa hàng</a></li>
-                            <li class="${cate == 'blog' ? 'active' : '' }"><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
-                            <li class="${cate == 'page' ? 'active' : '' }"><a href="#">Về chúng tôi</a>
-                                <ul class="dropdown">
-                                    <li><a href="${pageContext.request.contextPath}/about">Thông tin</a></li>
-                                    <li><a href="${pageContext.request.contextPath}/contact">Liên hệ</a></li>
-                                </ul>
-                            </li>                  
+<%--                            <li class="${cate == 'blog' ? 'active' : '' }"><a href="${pageContext.request.contextPath}/blog">Blog</a></li>--%>
+<%--                            <li class="${cate == 'page' ? 'active' : '' }"><a href="#">Về chúng tôi</a>--%>
+<%--                                <ul class="dropdown">--%>
+<%--                                    <li><a href="${pageContext.request.contextPath}/about">Thông tin</a></li>--%>
+<%--                                    <li><a href="${pageContext.request.contextPath}/contact">Liên hệ</a></li>--%>
+<%--                                </ul>--%>
+<%--                            </li>                  --%>
                         </ul>
                     </nav>
                 </div>

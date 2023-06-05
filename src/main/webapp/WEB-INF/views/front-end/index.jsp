@@ -551,36 +551,36 @@
     </section>
 </c:forEach>
 
-<section class="blog__section">
-    <div class="site__section" id="blog__section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center">
-                    <h3 class="section__sub__title">Tin tức mới</h3>
-                    <h2 class="section__title mb-3">Bài viết</h2>
-                </div>
-            </div>
+<%--<section class="blog__section">--%>
+<%--    <div class="site__section" id="blog__section">--%>
+<%--        <div class="container">--%>
+<%--            <div class="row mb-5">--%>
+<%--                <div class="col-12 text-center">--%>
+<%--                    <h3 class="section__sub__title">Tin tức mới</h3>--%>
+<%--                    <h2 class="section__title mb-3">Bài viết</h2>--%>
+<%--                </div>--%>
+<%--            </div>--%>
 
-            <div class="row">
-                <c:forEach begin="0" end="2" varStatus="loop">
-                    <div class="blog__section__item col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <img style="height: 235px;"
-                                 src="${pageContext.request.contextPath}/images/${blogs.get(loop.index).image}"
-                                 alt="Image" class="img-fluid">
-                            <h2 class="font__size__regular"><a class="text-black">${blogs.get(loop.index).title }</a>
-                            </h2>
-                            <div class="meta mb-4">Love u <span class="mx-2">&bullet;</span> All time<span class="mx-2">&bullet;</span>
-                            </div>
-                            <p class="customm">${blogs.get(loop.index).description }</p>
-                            <p><a href="${pageContext.request.contextPath }/view-blog">Continue Reading...</a></p>
-                        </div>
-                    </div>
-                </c:forEach>
-            </div>
-        </div>
-    </div>
-</section>
+<%--            <div class="row">--%>
+<%--                <c:forEach begin="0" end="2" varStatus="loop">--%>
+<%--                    <div class="blog__section__item col-md-6 col-lg-4 mb-4 mb-lg-4">--%>
+<%--                        <div class="h-entry">--%>
+<%--                            <img style="height: 235px;"--%>
+<%--                                 src="${pageContext.request.contextPath}/images/${blogs.get(loop.index).image}"--%>
+<%--                                 alt="Image" class="img-fluid">--%>
+<%--                            <h2 class="font__size__regular"><a class="text-black">${blogs.get(loop.index).title }</a>--%>
+<%--                            </h2>--%>
+<%--                            <div class="meta mb-4">Love u <span class="mx-2">&bullet;</span> All time<span class="mx-2">&bullet;</span>--%>
+<%--                            </div>--%>
+<%--                            <p class="customm">${blogs.get(loop.index).description }</p>--%>
+<%--                            <p><a href="${pageContext.request.contextPath }/view-blog">Continue Reading...</a></p>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </c:forEach>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
+<%--</section>--%>
 <jsp:include page="/WEB-INF/views/front-end/common/footer.jsp"></jsp:include>
 <jsp:include page="/WEB-INF/views/front-end/common/js.jsp"></jsp:include>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js">

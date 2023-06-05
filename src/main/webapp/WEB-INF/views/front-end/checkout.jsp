@@ -37,12 +37,12 @@
 				<form:form action="${pageContext.request.contextPath}/save-cart" method="post" modelAttribute="detailOrder">
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
-							<h6 class="coupon__code">
-								<img src="${pageContext.request.contextPath}/images/icon4.png">
-								Bạn có mã giảm giá, nhập ở đây:
-								<input id="discount" onchange="shop.check_discount();" /> <span style="color: green" id="mess"></span>
-								<input type = "hidden" id="codediscount" name="ccode" /> 
-							</h6>
+<%--							<h6 class="coupon__code">--%>
+<%--								<img src="${pageContext.request.contextPath}/images/icon4.png">--%>
+<%--								Bạn có mã giảm giá, nhập ở đây:--%>
+<%--								<input id="discount" onchange="shop.check_discount();" /> <span style="color: green" id="mess"></span>--%>
+<%--								<input type = "hidden" id="codediscount" name="ccode" /> --%>
+<%--							</h6>--%>
 							<h6 class="checkout__title">Chi tiết hoá đơn</h6>
 							<div class="row">
 								<div class="col-lg-6">

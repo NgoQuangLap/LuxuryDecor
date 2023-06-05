@@ -176,16 +176,16 @@
                                 </div>
                                 <a href="javascript:void(0)" class="primary-btn" onclick="cart.choose_product_to_cart(${product.id}, $('.quality').val())">Thêm vào giỏ hàng</a>
                             </div>
-                            <div class="product__details__btns__option">
-                                <c:choose>
-									<c:when test="${product.userLiked(USER) == true }">
-										<a onclick="favorite.favorite(${product.id});"><img class = "img_${product.id }" src="${pageContext.request.contextPath}/images/redheart.png" alt=""> Sản phẩm yêu thích</a>
-									</c:when>
-									<c:otherwise>
-										<a onclick="favorite.favorite(${product.id});"><img class = "img_${product.id }" src="${pageContext.request.contextPath}/images/heart.png" alt=""> Sản phẩm yêu thích</a>
-									</c:otherwise>
-								</c:choose>
-                            </div>
+<%--                            <div class="product__details__btns__option">--%>
+<%--                                <c:choose>--%>
+<%--									<c:when test="${product.userLiked(USER) == true }">--%>
+<%--										<a onclick="favorite.favorite(${product.id});"><img class = "img_${product.id }" src="${pageContext.request.contextPath}/images/redheart.png" alt=""> Sản phẩm yêu thích</a>--%>
+<%--									</c:when>--%>
+<%--									<c:otherwise>--%>
+<%--										<a onclick="favorite.favorite(${product.id});"><img class = "img_${product.id }" src="${pageContext.request.contextPath}/images/heart.png" alt=""> Sản phẩm yêu thích</a>--%>
+<%--									</c:otherwise>--%>
+<%--								</c:choose>--%>
+<%--                            </div>--%>
 <%--                            <div class="product__details__last__option">--%>
 <%--                                <h5><span>Đảm bảo thanh toán an toàn</span></h5>--%>
 <%--                                <img src="${pageContext.request.contextPath}/images/payment.png" alt="">--%>
